@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.product {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inline-buttons button {
+    margin-left: 10px;
+    background-color: #007bff;
+}
